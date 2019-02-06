@@ -50,7 +50,6 @@ def starts_with_consonant? s
     return false
   else
     ss = s.downcase.chars.first     # all to lower case
-    print ss
     if ss.match(/[a-z]/)            # is letter
       if ss.match(/[aeiou]/)        # chars do not want
         return false
